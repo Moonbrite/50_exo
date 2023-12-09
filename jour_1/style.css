@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+
+.global {
+  margin-top: 10vh;
+}
+
+img {
+  border-radius: 100px;
+}
+
+.carte {
+  width: 150px;
+  height: 77vh;
+  object-fit: cover;
+  transition: all 0.7s ease-in;
+}
+
+.actif {
+  width: 1450px;
+  transition: all 0.7s ease-in;
+}
+
+/*# sourceMappingURL=style.css.map */

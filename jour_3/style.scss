@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+}
+body{
+  overflow-x: clip;
+}
+header{
+  position: absolute;
+  z-index: 100;
+}
+nav {
+  background-color: indianred;
+  display: inline-block;
+  padding: 50px 55px;
+  border-bottom-right-radius: 155px;
+  position: relative;
+
+  .menu-open {
+    display: block;
+  }
+
+  .menu-closed {
+    display: none;
+  }
+
+  svg {
+    position: absolute;
+    top: 25px;
+    left: 20px;
+  }
+}
+
+section {
+  img {
+    width: 1000px;
+  }
+}
+
+.rota {
+  background-color: white;
+  position: absolute;
+  padding-left: 40vh;
+  transform: rotate(360deg);
+  width: 100%;
+  top: 0px;
+  left: 0vh;
+  transition: all 1s ease-in;
+  h2{
+    margin-top: 100px;
+  }
+}
+
+.la-rotation {
+  top: -330px;
+  transform: rotate(343deg);
+  left: 13vh;
+  transition: all 1s ease-in;
+}
+
+.la {
+  background: #333;
+  height: 113vh;
+}
+
+.le-menu-de-ouf{
+  position: fixed;
+  bottom: 100px;
+  color: white;
+  left: -200px;
+  transition: all 1s ease-in-out;
+}
+
+.activation{
+  left: 0px;
+  transition: all 1.5s ease-in;
+}
+
+.home{
+  margin-left: 30px;
+  margin-bottom: 25px;
+  span{
+    padding-left: 5px;
+  }
+}
+
+.about{
+  margin-left: 50px;
+  margin-bottom: 25px;
+  span{
+    padding-left: 5px;
+  }
+}
+.contact{
+  margin-left: 80px;
+  span{
+    padding-left: 5px;
+  }
+}
